@@ -10,7 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.0.0",
-    "glob": "^7.1.4",
     "minimist": "^1.2.0"
   }
 }
