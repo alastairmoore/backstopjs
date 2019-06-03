@@ -7,10 +7,10 @@ BACKSTOP_BASE := ./tests/backstop
 # Use the setup in tests/backstop to compare different environments
  
 reference:
-	backstop reference --configPath=backstop.js --pathFile=paths
+	backstop reference --configPath=backstop.js
  
 test:
-	backstop test --configPath=backstop.js --pathFile=paths
+	backstop test --configPath=backstop.js
  
 report:
 	backstop openReport --configPath=backstop.js
