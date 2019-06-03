@@ -1,4 +1,3 @@
-const args = require('minimist')(process.argv.slice(2));
 const dotenv = require('dotenv').config();
 const fs = require('fs');
 var scenarios = [];
