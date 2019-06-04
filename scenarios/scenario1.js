@@ -1,9 +1,10 @@
-var dotenv = require('dotenv').config(); // handles basic auth
+const dotenv = require('dotenv').config(); // handles basic auth
 
-var scenarioConfig = {
+const scenarioConfig = {
   "label": "homepage",
   "url": process.env.URL,
   "referenceUrl": process.env.REFERENCE_URL,
+  "onBeforeScript": "onBeforeScript.js",
   "hideSelectors": [
     "ul.tiles li a"
   ],

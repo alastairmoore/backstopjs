@@ -24,9 +24,6 @@ module.exports =
       "height": 667
     }
   ],
-  "onBeforeScript": "chromy/onBefore.js",
-  "onReadyScript": "chromy/onReady.js",
-  "cookiePath": "backstop_data/engine_scripts/cookies.json",
   "delay": 0,
   "selectorExpansion": true,
   "misMatchThreshold" : 0,
@@ -41,7 +38,7 @@ module.exports =
     "ci_report": "backstop_data/ci_report"
   },
   "report": ["browser", "CI"],
-  "engine": "chrome",
+  "engine": "puppet",
   "asyncCaptureLimit": 10,
   "asyncCompareLimit": 50,
   "debug": false,
